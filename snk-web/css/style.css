@@ -1,0 +1,190 @@
+:root{
+    --mainfont: 'Rock Salt', cursive;
+    --secfont: 'Stick', sans-serif;
+    --title: 'Monoton', cursive;
+    --darkgreen: #0C7105;
+    --black: #060606;
+    --white: #ffffff;
+    --darkergreen: #677C4C;
+    --gray: #ABB1A4;
+    --darkred: #5D1D12;
+    --darkgray: #817F7E;
+
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-image: url(../img/1757.jpeg);
+    background-position:center;
+    background-repeat:repeat;
+
+}
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+body{
+    
+    font-size: 1.6rem;
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+
+}
+video{
+    max-width: 100%;
+}
+h1{
+    font-family: var(--title);
+    text-align: center;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 7rem;
+    padding: 1rem;
+   
+}
+h2{
+    font-family:var(--title);
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+ 
+}
+h3{
+    font-family: var(--secfont);
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+.title:hover{
+    color: var(--darkred);
+}
+.container{
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 90%;
+}
+.header{
+    background-image: url(../img/hed.jpg);
+   margin: 3rem 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  .browsing a:hover{
+      background-color: var(--darkred);
+      color: var(--black);
+      font-weight: bold;
+  }
+  .browsing a{
+      padding: 1rem;
+      margin: auto;
+  }
+.logo{
+    text-decoration: none;
+  
+   
+}
+@media (min-width: 768px) { 
+    .browsing {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        margin: 2rem;
+        padding: 2rem;
+        background-color: var(--black);
+        background-size: 2rem;
+        background-clip: content-box;
+        padding: auto;
+    }
+}
+.browsing__link{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--secfont);
+   
+
+}
+.container{
+    background-color: black;
+    margin: auto;
+}
+
+.b-img{
+    margin: 5% 0.5% 10% 10%;
+    
+}
+.blog-text{
+    font-family: var(--secfont);
+    color: var(--white);
+    font-size:3rem ;
+    padding: 2rem;
+    margin: 5% 10% 2% 0;
+    text-align: center;
+
+}
+
+.cone{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2rem;
+}
+ /**Footer**/
+
+ .foot-text{
+     text-align: center;
+     color: var(--white);
+     font-family: var(--secfont);
+     font-size: 1rem;
+ }
+ /**Episodes**/
+
+.ovas,
+.seasons-img{
+    text-align: center;
+    
+    
+}
+.imgs{
+    max-width: 50%;
+    background-position: center;
+   margin: 5% 25%;
+   
+}
+.s-content,
+.s-link {
+    text-align: center;
+}
+.s-link_s{
+    text-decoration: none;
+    color: var(--black);
+}
+.s-link a:hover {
+    color: var(--darkred);
+}
+.s-link{
+    font-family: var(--secfont);
+    text-shadow: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:var(--gray);
+    border-radius: 1rem;
+    margin: 2% 35%;
+    
+  
+}
+
+
+/**Opening**/
+.openings{
+    width: 50%;
+    text-align: center;
+    margin: 5% 25%;
+}
